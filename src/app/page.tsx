@@ -12,6 +12,14 @@ export default function Home() {
         <small>
           The heavens are witness to how much I love you, Alyssa
         </small>
+
+        <br/><br/><br/>
+
+        <a className="underline" href="https://angelo8828.github.io/" target="_blank">
+          <small>
+            Contact me?
+          </small>
+        </a>
       </main>
     </div>
   );

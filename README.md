@@ -1,5 +1,7 @@
 This is a test [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Hosted on Vercel, on this URL, [https://test-nextjs-app-gamma-nine.vercel.app](https://test-nextjs-app-gamma-nine.vercel.app/)
+
 ## Getting Started
 
 First, run the development server:

@@ -5,13 +5,6 @@ export default function Home() {
         <p>
           Hello world! This is my test build on Next.js
         </p>
-        <p>
-          Made from the heart, by Angelo
-        </p>
-
-        <small>
-          The heavens are witness to how much I love you, Alyssa
-        </small>
 
         <br/><br/><br/>
 

@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="w-full max-w-3xl text-center mb-10">
       <h1 className="text-4xl font-bold text-gray-100 mb-4">
-        Hey, I'm <span className="text-gray-300">Elo</span>,{" "}
+        Hey, I&apos;m <span className="text-gray-300">Elo</span>,{" "}
         <span className="text-gray-400">
           <Typewriter
             words={[

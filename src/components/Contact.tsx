@@ -1,14 +1,19 @@
+import { FaEnvelope } from "react-icons/fa";
+
 export default function Contact() {
   return (
-    <section className="py-10 text-center">
-      <h2 className="text-3xl font-semibold text-gray-900">Let’s Connect!</h2>
-      <p className="text-gray-600 mt-2">Have a project in mind? Let’s talk! 🚀</p>
-      <a
-        href="mailto:your.email@example.com"
-        className="mt-4 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition"
-      >
-        Contact Me
-      </a>
+    <section className="w-full max-w-3xl text-center">
+      <h2 className="text-2xl font-bold text-gray-100 mb-4">Get in Touch</h2>
+
+      <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+        If you'd like to chat about projects, tech, or anything interesting, feel free to reach out at{" "}
+        <a
+          href="mailto:angelojoseph.salvador@gmail.com"
+          className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
+        >
+          angelojoseph.salvador@gmail.com <FaEnvelope className="text-lg" />
+        </a>.
+      </p>
     </section>
   );
 }

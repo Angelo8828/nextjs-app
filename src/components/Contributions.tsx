@@ -1,21 +1,40 @@
+import { FaGithub, FaWikipediaW } from "react-icons/fa";
+import { SiOpenstreetmap } from "react-icons/si";
+
 export default function Contributions() {
   return (
-    <section className="py-10 max-w-3xl text-center">
-      <h2 className="text-3xl font-semibold text-gray-900">Community Contributions</h2>
-      <p className="text-gray-600 mt-2">
-        I love giving back to the tech community. You can find my contributions on:
+    <section className="w-full max-w-3xl text-center">
+      <h2 className="text-2xl font-bold text-gray-100 mb-4">Contributions</h2>
+
+      <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+        I love giving back to the community by sharing code on{" "}
+        <a
+          href="https://github.com/your-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
+        >
+          GitHub <FaGithub className="text-xl" />
+        </a>,
+        mapping the world on{" "}
+        <a
+          href="https://www.openstreetmap.org/user/your-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
+        >
+          OpenStreetMap <SiOpenstreetmap className="text-xl" />
+        </a>,
+        and improving knowledge on{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/User:your-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
+        >
+          Wikipedia <FaWikipediaW className="text-xl" />
+        </a>.
       </p>
-      <div className="mt-4 flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="https://github.com/yourusername" target="_blank" className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition">
-          GitHub
-        </a>
-        <a href="https://www.openstreetmap.org/user/yourusername" target="_blank" className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500 transition">
-          OpenStreetMap
-        </a>
-        <a href="https://en.wikipedia.org/wiki/User:yourusername" target="_blank" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition">
-          Wikipedia
-        </a>
-      </div>
     </section>
   );
 }

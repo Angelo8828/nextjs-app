@@ -9,7 +9,7 @@ export default function Contributions() {
       <p className="text-gray-400 text-lg max-w-2xl mx-auto">
         I love giving back to the community by sharing code on{" "}
         <a
-          href="https://github.com/your-username"
+          href="http://github.com/Angelo8828"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
@@ -18,7 +18,7 @@ export default function Contributions() {
         </a>,
         mapping the world on{" "}
         <a
-          href="https://www.openstreetmap.org/user/your-username"
+          href="https://www.openstreetmap.org/user/ajm_salvador"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
@@ -27,7 +27,7 @@ export default function Contributions() {
         </a>,
         and improving knowledge on{" "}
         <a
-          href="https://en.wikipedia.org/wiki/User:your-username"
+          href="https://en.wikipedia.org/wiki/User:Angelo8828"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"

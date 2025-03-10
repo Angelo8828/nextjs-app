@@ -4,17 +4,17 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
-    <section className="w-full max-w-3xl text-center mb-10">
+    <section className="w-full max-w-3xl text-center mb-6">
       <h1 className="text-4xl font-bold text-gray-100 mb-4">
         Hey, I&apos;m <span className="text-gray-300">Elo</span>,{" "}
         <span className="text-gray-400">
           <Typewriter
             words={[
-              "a product designer.",
-              "a UI specialist.",
-              "a server geek.",
-              "a data guy.",
-              "an API developer.",
+              "a product designer",
+              "a UI specialist",
+              "a server geek",
+              "a data guy",
+              "an API developer",
             ]}
             loop={0}
             cursor

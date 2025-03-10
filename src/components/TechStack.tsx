@@ -1,5 +1,5 @@
-import { FaPhp, FaLaravel, FaSymfony, FaReact, FaVuejs, FaPython } from "react-icons/fa";
-import { SiDjango, SiJavascript, SiTypescript } from "react-icons/si";
+import { FaPhp, FaLaravel, FaSymfony, FaReact, FaVuejs } from "react-icons/fa";
+import { SiDjango, SiFlask, SiJavascript, SiTypescript } from "react-icons/si";
 
 export default function TechStack() {
   return (
@@ -29,8 +29,8 @@ export default function TechStack() {
         <div>
           <h3 className="text-lg font-medium text-gray-300 mb-2">Python</h3>
           <div className="flex justify-center gap-6 text-gray-400 text-4xl">
-            <FaPython title="Python" />
             <SiDjango title="Django" />
+            <SiFlask title="Flask" />
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function Contact() {
           className="text-gray-300 hover:text-white transition flex items-center justify-center gap-2 inline-flex"
         >
           angelojoseph.salvador@gmail.com <FaEnvelope className="text-lg" />
-        </a>.
+        </a>
       </p>
     </section>
   );
